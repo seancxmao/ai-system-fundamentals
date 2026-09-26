@@ -1,36 +1,22 @@
-# 用主流框架实现神经网络
+# Deep Learning in Action
 
-## Motivation & Context
-
-### Key Questions to Answer
+## Overview
 
 
-### Motivation
-
-为什么要做这个项目？
-
-### Position in the Roadmap
+## First Steps
 
 
 
-## Design & Implementation
+## References
 
-主要看代码
+**《MLP》**
 
-## Technical Deep Dive
+Machine Learning with PyTorch and Scikit-Learn: Develop machine learning and deep learning models with Python. Sebastian Raschka, Yuxi (Hayden) Liu, Vahid Mirjalili. 2022.
 
+**《HOMLP》**
 
-## Key Insights
+Hands-On Machine Learning with Scikit-Learn and PyTorch: Concepts, Tools, and Techniques to Build Intelligent Systems. Aurélien Géron. 2025.
 
-可以多些一点，这个不是直接看代码能够看出来的。
+**《DL with Python, 3e》**
 
-## References & Technical Foundations
-
-Deep Learning in Python. Third Edition. 2026. Geron.
-
-Hands-On Machine Learning with Scikit-Learn and PyTorch. 
-
-Machine Learning with PyTorch and Scikit-Learn. 
-
-Understanding Deep Learning.
-
+Deep Learning with Python, Third Edition. Francois Chollet, Matthew Watson. 2025.

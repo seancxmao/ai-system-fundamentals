@@ -199,58 +199,58 @@ AI是否有泡沫，寒冬会再来吗？
 
 # References
 
-《AIMA》
+**《AIMA》**
 
 Artificial Intelligence: A Modern Approach. by Peter Norvig, Stuart Russell. 2021. 俗称《AMIA》. AI通识的经典教材。关于什么是AI、AI的历史，摘自本书。
 
-《DDIA》
+**《DDIA》**
 
 Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems. Second Edition. Martin Kleppmann (Author), Chris Riccomini. 2026. 俗称《DDIA》。介绍AI历史时，开头那段引言是受本书卷首语的启发。
 
-《The Master Algorithm》
+**《The Master Algorithm》**
 
 The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World. Pedro Domingos. 2015. 总结了AI的5大经典流派。
 
-《The Bitter Lesson》
+**《The Bitter Lesson》**
 
 The Bitter Lesson. Rich Sutton. 2019.
 
-《The Hardware Lottery》
+**《The Hardware Lottery》**
 
 The Hardware Lottery. Sara Hooker. Google Research, Brain Team. 2020.
 
-《Scaling Laws》
+**《Scaling Laws》**
 
 Scaling Laws for Neural Language Models. Jared Kaplan. OpenAI. 2020.
 
-《HOMLP》
+**《HOMLP》**
 
 Hands-On Machine Learning with Scikit-Learn and PyTorch: Concepts, Tools, and Techniques to Build Intelligent Systems. Aurélien Géron. 2025.
 
-《MLP》
+**《MLP》**
 
 Machine Learning with PyTorch and Scikit-Learn: Develop machine learning and deep learning models with Python. Sebastian Raschka, Yuxi (Hayden) Liu, Vahid Mirjalili. 2022.
 
-《花书》
+**《花书》**
 
 Deep Learning (Adaptive Computation and Machine Learning series). Ian Goodfellow, Yoshua Bengio, Aaron Courville. 2016. 俗称《花书》。DL的经典教材，第一章关于DL的概览、历史和本质，值得一读。关于DL的其他内容，看更新的《UDL》和《DLFC》更好。
 
-《UDL》
+**《UDL》**
 
 Understanding Deep Learning. Simon J.D. Prince. 2023. 俗称《UDL》. 相比《DLFC》，《UDL》对工程师更友好。
 
-《DLFC》
+**《DLFC》**
 
 Deep Learning: Foundations and Concepts. Christopher Bishop, Hugh Bishop. 2023. 更偏理论。
 
-《Why Machines Learn》
+**《Why Machines Learn》**
 
 Why Machines Learn: The Elegant Math Behind Modern AI. Anil Ananthaswamy. 2024. 科普作品，对了解ML的历史和背后的数学原理，很有帮助。
 
-《DL with Python, 3e》
+**《DL with Python, 3e》**
 
 Deep Learning with Python, Third Edition. Francois Chollet, Matthew Watson. 2025. Francois Chollet是Keras作者。
 
-《Stanford HAI: AI Index Report 2026 — Research and Development》
+**《Stanford HAI: AI Index Report 2026 — Research and Development》**
 
 https://hai.stanford.edu/ai-index/2026-ai-index-report/research-and-development

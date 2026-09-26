@@ -1,5 +1,8 @@
 # Triton in Action
 
+## Overview
+
+
 ## What is Triton
 
 <img src="images/gpu-dsl.png" width="480">
@@ -23,6 +26,10 @@ GPU Programming with Triton: Accelerate AI training and inference. Harshwardhan 
 
 https://github.com/triton-lang/triton
 https://triton-lang.org/
+
+**vLLM Triton Attention Backend Deep Dive**
+
+https://vllm.ai/blog/2026-03-04-vllm-triton-backend-deep-dive
 
 **《AI Systems Performance Engineering》**
 
