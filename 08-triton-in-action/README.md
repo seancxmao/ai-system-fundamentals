@@ -7,8 +7,6 @@
 ## Triton Programming Model
 
 
-## Hello World
-
 
 
 ## References

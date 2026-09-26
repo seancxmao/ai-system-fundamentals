@@ -1,17 +1,14 @@
 # CUDA in Action
 
-## GPU Architecture
-
-
-
 ## CUDA Programmming Model
 
 
 
-
-## Hello World
-
-
+## CUDA Libraries
+cuBLAS
+cuDNN
+CUTLASS
+NCCL
 
 ## References
 
