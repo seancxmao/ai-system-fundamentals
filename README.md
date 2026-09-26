@@ -1,4 +1,4 @@
-# Inside Deep Learning Systems
+# Deep Learning System Fundamentals
 
 ## Background
 
