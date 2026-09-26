@@ -1,10 +1,14 @@
 [project]
-name = "inside-dl-systems"
+name = "dl-system-fundamentals"
 version = "0.1.0"
-description = "Inside DL Systems"
+description = "DL System Fundamentals"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "jupyterlab>=4.6.4",
+    "matplotlib>=3.11.2",
     "numpy>=2.5.0",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
     "torch>=2.13.0",
 ]
