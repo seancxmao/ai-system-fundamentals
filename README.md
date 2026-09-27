@@ -8,32 +8,30 @@
 
 ## Sub Projects
 
-### 01 AI Landscape
+### Big Picture
 
+* AI Landscape
+* DL Landscape
 
-### 02 DL Landscape
+### Deep Learning
 
+* DL in Action: 用PyTorch API实现MLP。
+* AI for Science in Action
+* Neural Network from Scratch: 用NumPy从零开始实现MLP。
 
-### 03 DL in Action
-用PyTorch API实现MLP。
+### GPU Computing
 
-### 04 AI for Science
+* GPU Architecture Essentials
+* CUDA in Action
+* Triton in Action
 
+### AI Compiler
 
-### 05 Neural Network from Scratch
-用NumPy从零开始实现MLP。
+* PyTorch Compiler in Action
 
-### 06 GPU Architecture Essentials
+### Serving
 
-
-### 07 CUDA in Action
-
-
-### 08 Triton in Action
-
-
-### 09 PyTorch Compiler in Action
-
+* Serving in Action
 
 ## Summary
 
