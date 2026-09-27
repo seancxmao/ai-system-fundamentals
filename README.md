@@ -1,44 +1,72 @@
-# Deep Learning System Fundamentals
+# AI System Fundamentals
 
-## Overview
+## AI Systems Overview
 
-这个项目的重点，不是学习高层深度学习框架（如PyTorch或JAX）的API，也不是各种DL模型（MLP、CNN、Transformer等等），而是通过熟悉现代深度学习系统的主要组件，为深入探究深度学习系统的内部工作原理打基础。打开黑盒，穿越不同抽象层级，从高层框架（PyTorch），直到AI软件栈的最底层（CUDA），乃至GPU Architecture。
+现代AI的核心是深度学习，AI System本质上就是Machne Learning System。
 
-基于以上动机，选择尽量简单的任务和模型，把重点放在深度学习系统内部工作原理上。任务选MNIST，这是深度学习的果蝇。模型选择MLP。MLP是现代深度学习中最基本的计算单元之一，也是Transformer的一个核心组件。
+什么是Machne Learning System？Reddi教授在《ML Systems》一书中，给出了ML Systems的一个定义，这个定义将数据、算法和硬件视为三大要素，相辅相成。
 
-## Sub Projects
+> Machine learning systems are software systems whose core behavior is determined by parameters learned from data rather than explicitly programmed rules, making performance a function of data quality, algorithm choice, and hardware capacity simultaneously.
 
-### Big Picture
+ML Systems在整个AI生态中处于什么位置呢？Reddi教授给出了一个非常形象的比喻。整个AI生态从Silicon到Mission分为4层，Systems位于Hardware和Workloads之间。
 
-* AI Landscape
-* DL Landscape
+* Hardware (The Silicon). The physical foundation (The Engine)。硬件比作引擎。
+* Systems (The Platforms). The integrated deployment unit (The Car). 系统比作整车。
+* Workloads (The Models). The algorithmic demand (The Route). 工作负载比作路线。
+* Missions (The Scenarios). The application context (The Destination). 任务比作目的地。
 
-### Deep Learning
+ML Systems是怎么构建和运转起来的呢？Reddi教授给出了ML Systems stack. 硬件的前提，既是enabler也是constraints。框架对硬件提供了抽象，既方便开发模型，也针对硬件进行优化。模型需要经过训练，才能服务和运维。最终开发AI应用。
 
-* DL in Action: 用PyTorch API实现MLP。
-* AI for Science in Action
-* Neural Network from Scratch: 用NumPy从零开始实现MLP。
+<img src="images/mlsys-stack.png" width="320">
 
-### GPU Computing
+## 项目简介
 
-* GPU Architecture Essentials
-* CUDA in Action
-* Triton in Action
+AI系统的内容非常庞大，本项目的目标，不是面面俱到，也不是深入透彻，而是对AI系统的若干关键点进行初步探究，为进一步深入打下基础。
 
-### AI Compiler
+先了解AI的大局（01-big-icture）
 
-* PyTorch Compiler in Action
+* 01-ai-andscape
+* 02-dl-Landscape
 
-### Serving
+然后进入深度学习（02-deep-learning）这一核心领域，通过动手实践了解深度学习是怎么工作的。
 
-* Serving in Action
+* 01-dl-in-action: 用PyTorch API实现NN
+* 02-ai4science-in-action: AI在Science领域的案例分析
+* 03-nn-from-scratch: 用NumPy从零开始实现NN
+
+接着进入GPU并行计算（03-gpu-computing），这是深度学习得以成功的关键要素之一
+
+* 01-gpu-arch-essentials
+* 02-cuda-in-action
+* 03-triton-in-action
+
+DL框架的一个视角是AI Compiler（04-ai-compiler）
+
+* 01-pytorch-compiler-in-action
+
+workload的重点正在从training转向serving（05-serving）
+
+* 01-serving-in-action
 
 ## Summary
 
-至此，深入理解了深度学习系统内部的工作原理。虽然生产级的深度学习模型和深度学习系统，要复杂得多，但是很多核心的基本原理已经能够体现出来：
+通过这个项目，对AI Systems总体上有了大致印象，对核心要素有初步认识。下一步有选择地深入更加细分的领域。侧重serving infrastructure和performance engineering，GPU Computing是下边界，Workload是上边界。
 
-* 模型的本质是分层表示学习
-* 训练是通过梯度下降在假设空间中搜索最优解
-* 用高层框架API写一行代码，底层到底发生什么，如何穿越整个软件栈的层次结构已经清晰
+* [understanding-llm-workloads](https://github.com/seancxmao/understanding-llm-workloads). LLM是最重要的AI workload之一，这个项目深入理解LLM workload，它是深入LLM serving的前提。
+* [llm-serving-deep-dive](https://github.com/seancxmao/llm-serving-deep-dive). 深入LLM inference and serving。
+* [dl-framework-internals](https://github.com/seancxmao/dl-framework-internals). 模型的架构、inference和优化，都离不开DL框架。
+* [gpu-programming](https://github.com/seancxmao/gpu-programming). LLM serving性能很大程度上依赖于GPU kernel。
 
-LLM是最重要的AI workload，所以下一步的目标是深入理解LLM workload。
+## References
+
+**《ML Systems》**
+
+Introduction to Machine Learning Systems. Vijay Janapa Reddi. 2026.
+
+**《AI Systems Performance Engineering》**
+
+AI Systems Performance Engineering: Optimizing Model Training and Inference Workloads with GPUs, CUDA, and PyTorch. Chris Fregly. 2025. O'Reilly.
+
+**《HOLLMSO》**
+
+Hands-On LLM Serving and Optimization: Hosting LLMs at Scale. Chi Wang and Peiheng Hu. 2026.
